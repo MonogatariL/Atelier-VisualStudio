@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cauldron", "Cauldron\Cauldron.vcxproj", "{AED8C520-C536-4EE9-BE46-F6109D0A74BD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{350FAF3E-258D-4448-AFA3-00D8BE084535} = {350FAF3E-258D-4448-AFA3-00D8BE084535}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AtelierDll", "AtelierDll\AtelierDll.vcxproj", "{350FAF3E-258D-4448-AFA3-00D8BE084535}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +26,14 @@ Global
 		{AED8C520-C536-4EE9-BE46-F6109D0A74BD}.Release|x64.Build.0 = Release|x64
 		{AED8C520-C536-4EE9-BE46-F6109D0A74BD}.Release|x86.ActiveCfg = Release|Win32
 		{AED8C520-C536-4EE9-BE46-F6109D0A74BD}.Release|x86.Build.0 = Release|Win32
+		{350FAF3E-258D-4448-AFA3-00D8BE084535}.Debug|x64.ActiveCfg = Debug|x64
+		{350FAF3E-258D-4448-AFA3-00D8BE084535}.Debug|x64.Build.0 = Debug|x64
+		{350FAF3E-258D-4448-AFA3-00D8BE084535}.Debug|x86.ActiveCfg = Debug|Win32
+		{350FAF3E-258D-4448-AFA3-00D8BE084535}.Debug|x86.Build.0 = Debug|Win32
+		{350FAF3E-258D-4448-AFA3-00D8BE084535}.Release|x64.ActiveCfg = Release|x64
+		{350FAF3E-258D-4448-AFA3-00D8BE084535}.Release|x64.Build.0 = Release|x64
+		{350FAF3E-258D-4448-AFA3-00D8BE084535}.Release|x86.ActiveCfg = Release|Win32
+		{350FAF3E-258D-4448-AFA3-00D8BE084535}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
